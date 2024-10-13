@@ -1,0 +1,71 @@
+* {
+  font-family: "Times New Roman", Arial, sans-serif;
+  font-size: medium;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #64c2c9;
+}
+
+.navigatie {
+  height: 20%;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+main {
+  height: 100%;
+  background-color: #64c2c9;
+  margin-top: -16px;
+}
+h1,
+h2,
+h3,
+h4 {
+  padding: 5px;
+  text-align: center;
+  font-size: x-large;
+}
+img {
+  height: 200px;
+  padding: 5px;
+}
+.hobby,
+.porto {
+  display: flex;
+  padding: 20px;
+}
+.interesse {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px;
+}
+p {
+  max-width: 62%;
+}
+.navigatie a {
+  height: 4.5rem;
+  width: 15%;
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-top: 30px;
+}
+.navigatie a:hover {
+  background-color: rgba(54, 181, 155, 0.668);
+  color: black;
+}
+.info {
+  margin-left: 250px;
+}
