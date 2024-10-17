@@ -29,7 +29,8 @@ main {
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   padding: 5px;
   text-align: center;
   font-size: x-large;
@@ -42,7 +43,8 @@ img {
   display: flex;
   padding: 20px;
 }
-.interesse {
+.interesse,
+.game {
   display: flex;
   flex-direction: row-reverse;
   padding: 20px;
