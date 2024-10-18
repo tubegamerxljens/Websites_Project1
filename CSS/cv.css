@@ -1,0 +1,90 @@
+* {
+  font-family: "Times New Roman", Arial, sans-serif;
+  font-size: medium;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #64c2c9;
+}
+
+.navigatie {
+  height: 20%;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+main {
+  height: 100%;
+  background-color: #64c2c9;
+}
+.navigatie a {
+  height: 4.5rem;
+  width: 15%;
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-top: 30px;
+}
+.navigatie a:hover {
+  background-color: rgba(54, 181, 155, 0.668);
+  color: black;
+}
+img {
+  height: 200px;
+  padding: 5px;
+}
+h1,
+h2,
+h3 {
+  padding: 5px;
+  font-size: x-large;
+}
+p {
+  text-align: left;
+}
+.inhoud {
+  display: grid;
+}
+table {
+  border-collapse: collapse;
+  padding: 5px;
+}
+td {
+  padding: 5px;
+}
+.inhoud {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.foto {
+  grid-column: 2 / 3;
+}
+.gegevens {
+  grid-column: 2 / 3;
+}
+.tabel {
+  grid-column: 2 / 3;
+}
+.profiel {
+  grid-column: 3 / 4;
+  grid-row: 1/2;
+}
+.opleiding {
+  grid-column: 3 / 4;
+  grid-row: 2/3;
+}
+.ervaring {
+  grid-column: 3 / 4;
+  grid-row: 3/4;
+}
